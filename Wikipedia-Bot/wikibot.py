@@ -23,7 +23,7 @@ async def send_welcome(message: types.Message):
 @dp.message_handler()
 async def sendWiki(message: types.Message):
     try:
-        respond = wikipedia.summary(message.text)
+        respond = wikipedia.search(message.text)
         respond2 = wikipedia.summary(message.text)
         await message.answer(respond)
         await message.answer(respond2)
