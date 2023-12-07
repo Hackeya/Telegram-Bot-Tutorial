@@ -13,6 +13,8 @@ pip install --force-reinstall -v "aiogram==2.23.1"
 - Git Push Command:
 git config --global user.name "username"
 git config --global user.email "email"
+
+- Git Save
 git add .
 git commit -m "done"
 git push origin main
