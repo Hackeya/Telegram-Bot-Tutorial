@@ -10,7 +10,7 @@ from difflib import get_close_matches as gcm
 
 # print(gcm('муомала', words))
 
-def checkWord(word, words=words):
+def checkWord(word, words=words): 
     word = word.lower()
     matches = set(gcm(word, words))
     available = False #Bunday so'z mavjud emas
